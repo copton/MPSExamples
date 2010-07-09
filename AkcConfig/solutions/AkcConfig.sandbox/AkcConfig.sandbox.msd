@@ -6,7 +6,7 @@
   <classPath />
   <sourcePath />
   <usedLanguages>
-    <usedLanguage>AkcConfig</usedLanguage>
+    <usedLanguage>f771c7ba-3e5a-47d6-bab9-27fbc7de7924(AkcConfig)</usedLanguage>
   </usedLanguages>
 </solution>
 
