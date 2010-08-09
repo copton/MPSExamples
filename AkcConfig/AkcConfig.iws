@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project relativePaths="false" version="4">
+<project version="4">
   <component name="BookmarkManager">
     <option name="myBookmarkInfos">
       <array>
@@ -41,10 +41,18 @@
     <option name="scrTextFileName" value="" />
     <option name="historyRevisionsNumber" value="4" />
   </component>
-  <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="61725550-66ba-4c85-bb58-c0c6916fa8ad" name="Default" comment="" />
-    <ignored path=".idea/workspace.xml" />
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="61725550-66ba-4c85-bb58-c0c6916fa8ad" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/AkcConfig/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/AkcConfig/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AkcConfig.sandbox/AkcConfig/sandbox/sandbox.mps" afterPath="$PROJECT_DIR$/solutions/AkcConfig.sandbox/AkcConfig/sandbox/sandbox.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/AkcConfig/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/AkcConfig/languageModels/constraints.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/AkcConfig/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/AkcConfig/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AkcConfig.iws" afterPath="$PROJECT_DIR$/AkcConfig.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/AkcConfig/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/AkcConfig/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AkcConfig.mpr" afterPath="$PROJECT_DIR$/AkcConfig.mpr" />
+    </list>
     <ignored path="AkcConfig.iws" />
+    <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,115 +81,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Environment" pinned="false" current="true" current-in-tab="true">
-        <entry file="mps://AkcConfig.structure/Environment">
+        <entry file="mps://AkcConfig.sandbox.sandbox/Environment">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
+            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Action" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://AkcConfig.structure/Action">
+      <file leaf-file-name="Tag" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://AkcConfig.structure/Tag">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
               <inner_tabs>
                 <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AudioAction" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://AkcConfig.structure/AudioAction">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rule" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://AkcConfig.structure/Rule">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Location" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://AkcConfig.structure/Location">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicSet" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://AkcConfig.structure/BasicSet">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-              <inner_tabs>
                 <tab index="0" />
                 <tab index="0" />
                 <tab index="0" />
@@ -201,27 +112,6 @@
       <file leaf-file-name="Thing" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://AkcConfig.structure/Thing">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-              <inner_tabs>
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-                <tab index="0" />
-              </inner_tabs>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Group" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://AkcConfig.structure/Group">
-          <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
               <inner_tabs>
                 <tab index="0" />
@@ -235,15 +125,9 @@
                 <tab index="0" />
                 <tab index="0" />
                 <tab index="0" />
+                <tab index="0" />
               </inner_tabs>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Environment" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://AkcConfig.sandbox.sandbox/Environment">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
           </provider>
         </entry>
       </file>
@@ -251,7 +135,6 @@
   </component>
   <component name="MessagesViewTool">
     <option name="autoscrollToSource" value="true" />
-    <option name="errors" value="true" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="true" id="Add" />
@@ -267,6 +150,21 @@
   </component>
   <component name="ProjectPluginManager">
     <option name="pluginsState">
+      <option name="jetbrains.mps.analyzers.plugin.Analyzers_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.baseLanguage.collections.plugin.Collections_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.baseLanguage.collections.trove.plugin.Trove_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
       <option name="jetbrains.mps.baseLanguage.dates.plugin.Dates_ProjectPlugin">
         <value>
           <PluginState />
@@ -279,7 +177,20 @@
       </option>
       <option name="jetbrains.mps.baseLanguage.unitTest.plugin.UnitTest_ProjectPlugin">
         <value>
-          <PluginState />
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.baseLanguage.unitTest.plugin.JUnitTestActionOptions_PreferencesComponent" />
+                  <params>
+                    <option name="isHidePassed" value="false" />
+                    <option name="isSelectFirstFailed" value="false" />
+                    <option name="isTrackRunning" value="false" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
         </value>
       </option>
       <option name="jetbrains.mps.build.custommps.plugin.Custommps_ProjectPlugin">
@@ -324,6 +235,9 @@
                   <option name="first" value="jetbrains.mps.ide.actions.PersistentOptions_PreferencesComponent" />
                   <params>
                     <option name="addReturnsOnImplement" value="false" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="addOverrideAnnotation" value="true" />
+                    <option name="removeAttributes" value="true" />
                   </params>
                 </ComponentState>
               </list>
@@ -423,13 +337,13 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="AkcConfig" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="AkcConfig" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -439,7 +353,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="AkcConfig" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -453,7 +367,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="AkcConfig" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -467,7 +381,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="AkcConfig" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -486,7 +400,7 @@
           <selection>
             <PATH>
               <PATH_ELEMENT>
-                <option name="myItemId" value="Project" />
+                <option name="myItemId" value="AkcConfig" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
@@ -498,11 +412,23 @@
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="Group" />
+                <option name="myItemId" value="Tag" />
                 <option name="myItemType" value="" />
               </PATH_ELEMENT>
             </PATH>
           </selection>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
+      <pane id="FileSystem">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AkcConfig.mpr" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <selection />
         </subPane>
       </pane>
       <pane id="VCSRoots">
@@ -510,17 +436,6 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="VCS Roots" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <selection />
-        </subPane>
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AkcConfig.mpr" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,51 +477,53 @@
     <option name="DETECT_NESTED_COPIES" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <configuration useDefault="true">/home/alex/.subversion</configuration>
+    <configuration useDefault="true">$PROJECT_DIR$/../../../.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="17" width="1438" height="882" extended-state="0" />
+    <frame x="1" y="17" width="1918" height="1182" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Run Packaging Language Build Script" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Supertypes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Build Custom MPS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
-      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496464" sideWeight="0.66159695" order="0" side_tool="false" />
-      <window_info id="Module Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
-      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953104" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" />
-      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" />
-      <window_info id="Analyze Stacktrace" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="cell explorer view" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Run Build Language Project" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Class Hierarchy" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Supertypes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24656811" sideWeight="0.66483015" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="MPS Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874197" sideWeight="0.48944035" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Concept Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874197" sideWeight="0.5068638" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966024" sideWeight="0.49788806" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Analyze Stacktrace" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Class Hierarchy" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Packaging Language Build Script" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Custom MPS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="cell explorer view" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Build Language Project" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UsagesViewTool">
@@ -625,6 +542,9 @@
     <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -675,29 +595,11 @@
     </GetOptions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://AkcConfig.structure/Tag">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://AkcConfig.structure/Action">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
+            <tab index="0" />
             <tab index="0" />
             <tab index="0" />
             <tab index="0" />
@@ -728,14 +630,56 @@
             <tab index="0" />
             <tab index="0" />
             <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://AkcConfig.structure/Rule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="-1" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
           </inner_tabs>
         </state>
       </provider>
     </entry>
     <entry file="mps://AkcConfig.structure/Location">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
           <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://AkcConfig.structure/EnterRule">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
             <tab index="0" />
             <tab index="0" />
             <tab index="0" />
@@ -766,57 +710,16 @@
             <tab index="0" />
             <tab index="0" />
             <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://AkcConfig.structure/Thing">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
             <tab index="0" />
           </inner_tabs>
         </state>
-      </provider>
-    </entry>
-    <entry file="mps://AkcConfig.sandbox.sandbox/Environment">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
     <entry file="mps://AkcConfig.structure/Group">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
-          <inner_tabs>
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-            <tab index="0" />
-          </inner_tabs>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://AkcConfig.structure/Rule">
-      <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
           <inner_tabs>
+            <tab index="0" />
             <tab index="0" />
             <tab index="0" />
             <tab index="0" />
@@ -847,8 +750,114 @@
             <tab index="0" />
             <tab index="0" />
             <tab index="0" />
+            <tab index="0" />
           </inner_tabs>
         </state>
+      </provider>
+    </entry>
+    <entry file="mps://AkcConfig.structure/LocationRef">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://AkcConfig.structure/ActionRef">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://AkcConfig.structure/BasicSetRef">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="1">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://AkcConfig.structure/Tag">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://AkcConfig.structure/Thing">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.tabbedEditor.TabbedEditor$MyFileEditorState" tab="0">
+          <inner_tabs>
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+            <tab index="0" />
+          </inner_tabs>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://AkcConfig.sandbox.sandbox/Environment">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.NodeEditor$MyFileEditorState" />
       </provider>
     </entry>
   </component>
