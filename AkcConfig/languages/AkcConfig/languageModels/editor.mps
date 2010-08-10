@@ -64,14 +64,8 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="9129770433977388768">
         <property name="text" value="is tagged with" />
       </node>
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="9129770433977728679">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="4967904106073365260">
         <link role="relationDeclaration" targetNodeId="1.9129770433977388776" />
-        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="9129770433977728680">
-          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="9129770433977728682">
-            <property name="readOnly" value="true" />
-            <link role="relationDeclaration" targetNodeId="1.9129770433977388775" resolveInfo="value" />
-          </node>
-        </node>
       </node>
     </node>
   </node>
@@ -255,6 +249,12 @@
         <link role="relationDeclaration" targetNodeId="1.9129770433977388773" />
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="7849759035719654676" />
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="4967904106073365261">
+    <link role="conceptDeclaration" targetNodeId="1.9129770433977388774" resolveInfo="Tag" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="4967904106073365263">
+      <link role="relationDeclaration" targetNodeId="1.9129770433977388775" resolveInfo="value" />
     </node>
   </node>
 </model>

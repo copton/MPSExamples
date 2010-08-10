@@ -27,7 +27,9 @@
     </node>
     <node role="things" type="AkcConfig.structure.Thing" id="7849759035719637332">
       <property name="name" value="Knight" />
-      <node role="tag" type="AkcConfig.structure.Tag" id="3219312257800370396" />
+      <node role="tag" type="AkcConfig.structure.Tag" id="3219312257800370396">
+        <property name="value" value="3435" />
+      </node>
     </node>
   </node>
 </model>
