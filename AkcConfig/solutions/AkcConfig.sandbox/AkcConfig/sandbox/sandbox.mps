@@ -5,48 +5,73 @@
   <language namespace="f771c7ba-3e5a-47d6-bab9-27fbc7de7924(AkcConfig)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:337725d4-85dd-444c-beb7-8de1132019d6(AkcConfig.structure)" version="4" />
+  <languageAspect modelUID="r:337725d4-85dd-444c-beb7-8de1132019d6(AkcConfig.structure)" version="5" />
   <maxImportIndex value="0" />
   <node type="AkcConfig.structure.Environment" id="7849759035719631997">
-    <node role="rules" type="AkcConfig.structure.Rule" id="2667541011108144137">
-      <node role="disjunction" type="AkcConfig.structure.Disjunction" id="2667541011108144138">
-        <node role="disjunctions" type="AkcConfig.structure.Conjunction" id="2667541011108144139">
-          <node role="conjunctions" type="AkcConfig.structure.Condition" id="2667541011108146045">
-            <node role="things" type="AkcConfig.structure.ThingRef" id="2667541011108146049">
-              <link role="thing" targetNodeId="2667541011108126411" resolveInfo="Knight" />
-            </node>
-            <node role="things" type="AkcConfig.structure.ThingRef" id="2667541011108146088">
-              <link role="thing" targetNodeId="2667541011108146061" resolveInfo="Queen" />
-            </node>
-            <node role="verb" type="AkcConfig.structure.Enter" id="2667541011108146050" />
-            <node role="locations" type="AkcConfig.structure.LocationRef" id="2667541011108146051">
-              <link role="locations" targetNodeId="7849759035719631998" resolveInfo="Bridge" />
-            </node>
-          </node>
-        </node>
-        <node role="disjunctions" type="AkcConfig.structure.Conjunction" id="2667541011108146069">
-          <node role="conjunctions" type="AkcConfig.structure.Condition" id="2667541011108146070">
-            <node role="things" type="AkcConfig.structure.ThingRef" id="2667541011108146074">
-              <link role="thing" targetNodeId="2667541011108146061" resolveInfo="Queen" />
-            </node>
-            <node role="verb" type="AkcConfig.structure.Leave" id="2667541011108146075" />
-            <node role="locations" type="AkcConfig.structure.LocationRef" id="2667541011108146076">
-              <link role="locations" targetNodeId="2667541011108126413" resolveInfo="Castle" />
-            </node>
-          </node>
-          <node role="conjunctions" type="AkcConfig.structure.Condition" id="2667541011108146077">
-            <node role="things" type="AkcConfig.structure.ThingRef" id="2667541011108146083">
-              <link role="thing" targetNodeId="2667541011108146081" resolveInfo="King" />
-            </node>
-            <node role="verb" type="AkcConfig.structure.Enter" id="2667541011108146084" />
-            <node role="locations" type="AkcConfig.structure.LocationRef" id="2667541011108146086">
-              <link role="locations" targetNodeId="2667541011108146085" resolveInfo="Bedroom" />
-            </node>
-          </node>
-        </node>
+    <node role="groups" type="AkcConfig.structure.Things" id="5218597492072121111">
+      <property name="name" value="Males" />
+      <node role="things" type="AkcConfig.structure.ThingRef" id="5218597492072121114">
+        <link role="thing" targetNodeId="2667541011108146081" resolveInfo="King" />
       </node>
-      <node role="actions" type="AkcConfig.structure.ActionRef" id="2667541011108144145">
+      <node role="things" type="AkcConfig.structure.ThingRef" id="5218597492072121116">
+        <link role="thing" targetNodeId="2667541011108126411" resolveInfo="Knight" />
+      </node>
+      <node role="tag" type="AkcConfig.structure.Tag" id="5218597492072121113" />
+    </node>
+    <node role="groups" type="AkcConfig.structure.Locations" id="5218597492072137274">
+      <property name="name" value="ImportantLocations" />
+      <node role="locations" type="AkcConfig.structure.LocationRef" id="5218597492072137276">
+        <link role="location" targetNodeId="2667541011108146085" resolveInfo="Bedroom" />
+      </node>
+      <node role="locations" type="AkcConfig.structure.LocationRef" id="5218597492072137279">
+        <link role="location" targetNodeId="7849759035719631998" resolveInfo="Bridge" />
+      </node>
+    </node>
+    <node role="groups" type="AkcConfig.structure.Actions" id="5218597492072137283">
+      <property name="name" value="FunnySounds" />
+      <node role="actions" type="AkcConfig.structure.ActionRef" id="5218597492072137284">
         <link role="action" targetNodeId="2667541011108126418" resolveInfo="Ohoh" />
+      </node>
+      <node role="actions" type="AkcConfig.structure.ActionRef" id="5218597492072137285">
+        <link role="action" targetNodeId="7849759035719632005" resolveInfo="Taddaa" />
+      </node>
+    </node>
+    <node role="rules" type="AkcConfig.structure.Rule" id="5218597492072070250">
+      <node role="actions" type="AkcConfig.structure.ActionRef" id="5218597492072070257">
+        <link role="action" targetNodeId="5218597492072137283" resolveInfo="FunnySounds" />
+      </node>
+      <node role="disjunction" type="AkcConfig.structure.Disjunction" id="5218597492072127380">
+        <node role="disjunctions" type="AkcConfig.structure.Conjunction" id="5218597492072127381">
+          <node role="conjunctions" type="AkcConfig.structure.Condition" id="5218597492072127382">
+            <node role="thing" type="AkcConfig.structure.ThingRef" id="5218597492072127386">
+              <link role="thing" targetNodeId="5218597492072121111" resolveInfo="Males" />
+            </node>
+            <node role="verb" type="AkcConfig.structure.Enter" id="5218597492072127387" />
+            <node role="location" type="AkcConfig.structure.LocationRef" id="5218597492072127388">
+              <link role="location" targetNodeId="7849759035719631998" resolveInfo="Bridge" />
+            </node>
+          </node>
+          <node role="conjunctions" type="AkcConfig.structure.Condition" id="5218597492072154375">
+            <node role="thing" type="AkcConfig.structure.ThingRef" id="5218597492072154379">
+              <link role="thing" targetNodeId="2667541011108146061" resolveInfo="Queen" />
+            </node>
+            <node role="verb" type="AkcConfig.structure.IsAt" id="5218597492072154380" />
+            <node role="location" type="AkcConfig.structure.LocationRef" id="5218597492072154381">
+              <link role="location" targetNodeId="2667541011108146085" resolveInfo="Bedroom" />
+            </node>
+          </node>
+        </node>
+        <node role="disjunctions" type="AkcConfig.structure.Conjunction" id="5218597492072127393">
+          <node role="conjunctions" type="AkcConfig.structure.Condition" id="5218597492072127394">
+            <node role="thing" type="AkcConfig.structure.ThingRef" id="5218597492072154372">
+              <link role="thing" targetNodeId="2667541011108146061" resolveInfo="Queen" />
+            </node>
+            <node role="verb" type="AkcConfig.structure.IsAt" id="5218597492072154373" />
+            <node role="location" type="AkcConfig.structure.LocationRef" id="5218597492072154374">
+              <link role="location" targetNodeId="5218597492072137274" resolveInfo="ImportantLocations" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node role="locations" type="AkcConfig.structure.Location" id="7849759035719631998">

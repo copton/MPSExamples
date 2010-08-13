@@ -57,6 +57,17 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="5">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameLink" />
+      <moveMap />
+      <sourceMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="locations" conceptFQName="AkcConfig.structure.LocationRef" featureKind="REFERENCE" />
+          <value featureName="location" conceptFQName="AkcConfig.structure.LocationRef" featureKind="REFERENCE" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
@@ -78,10 +89,10 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:337725d4-85dd-444c-beb7-8de1132019d6(AkcConfig.structure)" version="4" />
+  <languageAspect modelUID="r:337725d4-85dd-444c-beb7-8de1132019d6(AkcConfig.structure)" version="5" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:337725d4-85dd-444c-beb7-8de1132019d6(AkcConfig.structure)" version="4" />
+  <import index="1" modelUID="r:337725d4-85dd-444c-beb7-8de1132019d6(AkcConfig.structure)" version="5" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="9129770433977388740">
     <property name="name" value="Location" />
@@ -164,7 +175,7 @@
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7849759035719508941">
       <property name="metaClass" value="reference" />
-      <property name="role" value="locations" />
+      <property name="role" value="location" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="9129770433977388740" resolveInfo="Location" />
     </node>
@@ -223,8 +234,8 @@
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="2667541011108112225">
       <property name="metaClass" value="aggregation" />
-      <property name="role" value="things" />
-      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="thing" />
+      <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="2667541011108081782" resolveInfo="ThingRef" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="2667541011108112229">
@@ -235,8 +246,8 @@
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="2667541011108112227">
       <property name="metaClass" value="aggregation" />
-      <property name="role" value="locations" />
-      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="location" />
+      <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="7849759035719508940" resolveInfo="LocationRef" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="2667541011108083521">
@@ -284,11 +295,71 @@
       <property name="sourceCardinality" value="1..n" />
       <link role="target" targetNodeId="9129770433977388777" resolveInfo="Action" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5218597492072112675">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="groups" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="5218597492072112656" resolveInfo="Group" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="2667541011108119349">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="rules" />
       <property name="sourceCardinality" value="1..n" />
       <link role="target" targetNodeId="9129770433977388782" resolveInfo="Rule" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5218597492071941002">
+    <property name="package" value="rule.verbs" />
+    <property name="name" value="IsAt" />
+    <link role="extends" targetNodeId="2667541011108112228" resolveInfo="Verb" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5218597492072112655">
+    <property name="package" value="group" />
+    <property name="name" value="Things" />
+    <link role="extends" targetNodeId="9129770433977388755" resolveInfo="Thing" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5218597492072112658">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="things" />
+      <property name="sourceCardinality" value="1..n" />
+      <link role="target" targetNodeId="2667541011108081782" resolveInfo="ThingRef" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="5218597492072112657">
+      <link role="intfc" targetNodeId="5218597492072112656" resolveInfo="Group" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" id="5218597492072112656">
+    <property name="package" value="group" />
+    <property name="name" value="Group" />
+    <node role="extends" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="5218597492072127420">
+      <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5218597492072127398">
+    <property name="package" value="group" />
+    <property name="name" value="Locations" />
+    <link role="extends" targetNodeId="9129770433977388740" resolveInfo="Location" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5218597492072127400">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="locations" />
+      <property name="sourceCardinality" value="1..n" />
+      <link role="target" targetNodeId="7849759035719508940" resolveInfo="LocationRef" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="5218597492072127399">
+      <link role="intfc" targetNodeId="5218597492072112656" resolveInfo="Group" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5218597492072127416">
+    <property name="package" value="group" />
+    <property name="name" value="Actions" />
+    <link role="extends" targetNodeId="9129770433977388777" resolveInfo="Action" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5218597492072127421">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="actions" />
+      <property name="sourceCardinality" value="1..n" />
+      <link role="target" targetNodeId="7849759035719508942" resolveInfo="ActionRef" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="5218597492072127417">
+      <link role="intfc" targetNodeId="5218597492072112656" resolveInfo="Group" />
     </node>
   </node>
 </model>
